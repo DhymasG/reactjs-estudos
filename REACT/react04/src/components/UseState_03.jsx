@@ -5,19 +5,19 @@ export default () => {
     const [valor1, setValor1] = useState(1);
     const [valor2, setValor2] = useState(2);
 
-    function diminuir1(){
+    function diminuir1() {
         setValor1(v => v - 1);
     }
 
-    function aumentar1(){
+    function aumentar1() {
         setValor1(v => v + 1)
     }
 
-    function diminuir2(){
+    function diminuir2() {
         setValor2(v => v - 1);
     }
 
-    function aumentar2(){
+    function aumentar2() {
         setValor2(v => v + 1)
     }
 
