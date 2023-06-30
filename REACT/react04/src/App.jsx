@@ -1,13 +1,13 @@
 import React from "react";
 
-import HookSate01 from './components/UseState_01'
+import HookState09 from './components/UseState_09'
 
 export default () => {
  
     return(
         <>
             <h1>React Hooks</h1>
-            <HookSate01 />
+            <HookState09 />
         </>
     )
 }
